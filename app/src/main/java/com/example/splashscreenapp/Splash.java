@@ -12,6 +12,7 @@ public class Splash extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
 
+
         Thread threadTimeSplash = new Thread(){
 
             @Override

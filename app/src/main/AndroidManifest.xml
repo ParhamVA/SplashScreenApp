@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Splash">
+        <activity android:name=".Splash"
+            android:theme="@style/AppThemeFullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
